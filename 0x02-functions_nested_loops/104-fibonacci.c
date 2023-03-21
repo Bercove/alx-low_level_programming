@@ -12,13 +12,14 @@ int main(void)
 	a = 1;
 	b = 2;
 
-	for (i = 0, sum = 0; a < 98; i++)
+	for (i = 0, sum = 0; a < 1779979416004714189; i++)
 	{
 		if (!(a % 2))
 			sum += a;
 		b = a + b;
 		a = b - a;
+printf("%ld, ", sum);
 	}
-	printf("%ld\n", sum);
+	// printf("%ld\n", sum);
 	return (0);
 }
