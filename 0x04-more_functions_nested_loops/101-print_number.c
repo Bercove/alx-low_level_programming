@@ -23,6 +23,7 @@ void print_number(int n)
 		if (n / y == 0 && x == 0)
 		{
 			y /= 10;
+			
 			continue;
 		}
 		else if (x == 0)
@@ -40,4 +41,3 @@ void print_number(int n)
 		y /= 10;
 	}
 }
-
